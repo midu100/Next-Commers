@@ -7,7 +7,7 @@ const SingleProduct = ({Img,title,price}) => {
     <>
       <div className='w-[295px]'>
         <div className="IMG bg-gray-400 w-full h-[298px] rounded-[20px]">
-            <Image src={Img} alt='product' />
+            <Image placeholder='blur' blurDataURL='...' src={Img} alt='product' />
         </div>
 
         <h2 className='text-[18px] font-medium font-sans mt-[16px]'>{title}</h2>

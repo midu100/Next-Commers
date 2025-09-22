@@ -16,7 +16,6 @@ export default function Home() {
       <TopSelling />
       <Dress />
       <Review />
-      <Subscribe />
     </>
   );
 }

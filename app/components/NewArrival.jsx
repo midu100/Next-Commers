@@ -11,8 +11,10 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const NewArrival = () => {
+  // slider
     const settings = {
     className: "center",
     centerMode: true,
@@ -24,6 +26,7 @@ const NewArrival = () => {
     autoplaySpeed: 1000,
     pauseOnHover: true
   };
+
   return (
     <>
       <section className='pt-[72px] pb-[64px]'>
@@ -32,26 +35,26 @@ const NewArrival = () => {
             <div className="row mt-[45px]">
                 <Slider {...settings}>
                     <div>
-                       <SingleProduct Img={new1} title={'T-SHIRT WITH TAPE DETAILS'} price={'120'}/>
+                       <SingleProduct  Img={new1} title={'T-SHIRT WITH TAPE DETAILS'} price={'120'}/>
                     </div>
 
                     <div>
-                       <SingleProduct Img={new2} title={'SKINNY FIT JEANS'} price={'220'}/>
+                       <SingleProduct  Img={new2} title={'SKINNY FIT JEANS'} price={'220'}/>
                     </div>
 
                     <div>
-                       <SingleProduct Img={new3} title={'CHECKERED SHIRT'} price={'180'}/>
+                       <SingleProduct  Img={new3} title={'CHECKERED SHIRT'} price={'180'}/>
                     </div>
 
                     <div>
-                       <SingleProduct Img={new4} title={'SLEEVE STRIPED T-SHIRT'} price={'130'}/>
+                       <SingleProduct  Img={new4} title={'SLEEVE STRIPED T-SHIRT'} price={'130'}/>
                     </div>
                 </Slider>
 
                 {/* view all page */}
 
                 <div className='mt-[36px] flex justify-center'>
-                    <Link href={'/'} className='py-[15px] px-[80px] rounded-[62px] border text-[16px] font-mono'>View All</Link>
+                    <Link href={'/allpages'} className='py-[15px] px-[80px] rounded-[62px] border text-[16px] font-mono'>View All</Link>
                 </div>
                 
             </div>
