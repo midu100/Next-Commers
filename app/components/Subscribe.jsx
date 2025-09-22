@@ -4,6 +4,9 @@ import { IoMailOpenOutline } from "react-icons/io5";
 const Subscribe = () => {
   return (
     <>
+    <section className='pb-[10px]'>
+      <div className="container">
+
       <div className='bg-[#000] py-[36px] px-[64px] rounded-[20px] flex justify-between items-center'>
          <div className='w-[551px]'>
             <h1 className='text-[40px] font-mono font-bold text-[#fff] leading-[45px]'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
@@ -18,6 +21,8 @@ const Subscribe = () => {
             <button className='bg-[#fff] w-full h-[48px] rounded-[62px] cursor-pointer mt-[14px] font-mono font-medium text-[18px]'>Subscribe to Newsletter</button>
          </div>
       </div>
+      </div>
+    </section>
     </>
   )
 }

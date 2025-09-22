@@ -34,9 +34,9 @@ const Footer = () => {
       <footer className='bg-[#F0F0F0] pt-[140px] pb-[88px] '>
          <div className="container relative">
 
-            <div className='absolute top-[-240px] w-full'>
+            {/* <div className='absolute top-[-240px] w-full'>
                 <Subscribe />
-            </div>
+            </div> */}
 
             <div className="row flex justify-between items-center">
 
