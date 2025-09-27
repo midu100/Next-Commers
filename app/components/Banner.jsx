@@ -8,7 +8,7 @@ import Counter from './common/Counter'
 const Banner = () => {
   return (
     <>
-       <section style={{background:"url('/BannerBg.png')"}} className='pt-[103px] pb-[91px]'>
+       <section style={{background:"url('/BannerBg.png')"}} className='pt-[103px] pb-[91px] bg-no-repeat bg-cover bg-center'>
          <div className="container">
              <div className="row">
                 <div>

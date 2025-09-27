@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Subscribe";
+import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         {children}
         <Subscribe />
         <Footer />
+        <ToastContainer />
       </body>
     </html>
   );

@@ -49,7 +49,7 @@ const Footer = () => {
                     <div className='flex gap-[12px] mt-[35px]'>
                         {
                             Icons.map((item,i)=>(
-                                <div key={i} className='w-[40] h-[40] rounded-full bg-[#fff] flex justify-center items-center hover:bg-[#000] hover:text-[#fff] duration-[.4s]'>
+                                <div key={i} className='w-[40px] h-[40px] rounded-full bg-[#fff] flex justify-center items-center hover:bg-[#000] hover:text-[#fff] duration-[.4s]'>
                                 <Link href={'/'}>{item.icon}</Link>
                             </div>
                             ))

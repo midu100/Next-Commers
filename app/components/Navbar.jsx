@@ -31,7 +31,7 @@ const Navbar = () => {
 
                 <div className="ICONS flex gap-[14px] items-center">
                     <Link href={'/'}><BiCart className='text-[30px]'/></Link>
-                    <Link href={'/'}><FaRegCircleUser className='text-[24px]'/></Link>
+                    <Link href={'/signup'}><FaRegCircleUser className='text-[24px]'/></Link>
                 </div>
 
             </div>
